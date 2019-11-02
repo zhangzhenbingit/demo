@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="../../../layuiadmin/layui/css/layui.css" media="all">
+  <link rel="stylesheet" href="../../../layuiadmin/style/admin.css" media="all">
+  <link rel="stylesheet/less" type="text/css" href="../../../layuiadmin/style/common.less">
+  <link rel="stylesheet/less" type="text/css" href="style.less">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+</head>
+
+<body>
+  <div class="layui-fluid">
+    <div class="layui-card">
+      <div class="layui-card-body">
+        <fieldset class="layui-elem-field layui-field-title">
+          <legend>生产BOM编辑</legend>
+        </fieldset>
+
+
+        <div class="filter-bar layui-form">
+          <div class="filter-box layui-form-item">
+            <div class="layui-inline">
+              <label class="layui-form-label">单据号</label>
+              <span class="form-data">DJ20018i23</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">审核状态</label>
+              <span class="form-data">已审核</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">型号</label>
+              <span class="form-data">DJ20018i23</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">客户名称</label>
+              <span class="form-data">摩根大通</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">物码编号</label>
+              <span class="form-data">as232234ssv23r4</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">执行标准</label>
+              <span class="form-data">GB/G234322331</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">规格</label>
+              <span class="form-data">1000</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">电压等级</label>
+              <span class="form-data">500000V</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">BOM版本号</label>
+              <span class="form-data">V1.0</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">订单分段号</label>
+              <span class="form-data">1.00001</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">客户执行标准</label>
+              <span class="form-data">国标</span>
+            </div>
+            <div class="layui-inline">
+              <label class="layui-form-label">备注</label>
+              <span class="form-data">...</span>
+            </div>
+          </div>
+          <div class="operate-box">
+            <div class="layui-upload">
+              <img class="layui-upload-img" id="uploadImg">
+              <p id="demoText"></p>
+            </div>
+          </div>
+        </div>
+        <table id="dataList" class="layui-table" lay-size="sm" lay-filter="table1"></table>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/html" id="checkDetail">
+    <a class="layui-btn layui-btn-xs" lay-event="detail">查看</a>
+  </script>
+
+  <script src="../../../layuiadmin/layui/layui.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+
+</html>

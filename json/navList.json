@@ -1,0 +1,215 @@
+{
+  "navList": [
+    {
+      "title": "主页",
+      "class": "layui-icon-rate-half",
+      "routerUrl": "gantt/index.html",
+      "childrenList": []
+    },
+    {
+      "title": "消息中心",
+      "routerUrl": "",
+      "class": "layui-icon-template-1",
+      "childrenList": [
+        {
+          "title": "告警信息",
+          "routerUrl": "message/index.html",
+          "GrandsonList": []
+        },
+        {
+          "title": "协作消息",
+          "routerUrl": "message/collaborativeMessage",
+          "GrandsonList": []
+        }
+      ]
+    },
+    {
+      "title": "监控中心",
+      "class": "layui-icon-username",
+      "routerUrl": "",
+      "childrenList": [
+        {
+          "title": "合同订单",
+          "routerUrl": "",
+          "GrandsonList": [
+            {
+              "title": "销售合同",
+              "routerUrl": "monitor/contractOrder/salesContract"
+            },
+            {
+              "title": "销售订单",
+              "routerUrl": "monitor/contractOrder/salesOrder"
+            }
+          ]
+        },
+        {
+          "title": "排产计划",
+          "routerUrl": "",
+          "GrandsonList": [
+            {
+              "title": "产成品计划",
+              "routerUrl": "www.baidu.com5"
+            }
+          ]
+        },
+        {
+          "title": "产品工艺",
+          "routerUrl": "monitor/productProcess",
+          "GrandsonList": []
+        },
+        {
+          "title": "制造执行",
+          "routerUrl": "",
+          "GrandsonList": [
+            {
+              "title": "工序汇报",
+              "routerUrl": "www.baidu.com8"
+            },
+            {
+              "title": "领料单",
+              "routerUrl": "www.baidu.com9"
+            }
+          ]
+        },
+        {
+          "title": "质量检测",
+          "routerUrl": "",
+          "GrandsonList": [
+            {
+              "title": "成品检验",
+              "routerUrl": "www.baidu.com11"
+            },
+            {
+              "title": "在线监测",
+              "routerUrl": "www.baidu.com12"
+            },
+            {
+              "title": "原材料检验",
+              "routerUrl": "www.baidu.com13"
+            }
+          ]
+        },
+        {
+          "title": "库存管理",
+          "routerUrl": "www.baidu.com14",
+          "GrandsonList": []
+        },
+        {
+          "title": "物流跟踪",
+          "routerUrl": "www.baidu.com15",
+          "GrandsonList": []
+        },
+        {
+          "title": "往来履约",
+          "routerUrl": "www.baidu.com16",
+          "GrandsonList": []
+        },
+        {
+          "title": "送检管理",
+          "routerUrl": "",
+          "GrandsonList": [
+            {
+              "title": "样品管理",
+              "routerUrl": "www.baidu.com17"
+            },
+            {
+              "title": "监测报告",
+              "routerUrl": "www.baidu.com18"
+            }
+          ]
+        },
+        {
+          "title": "视频监控",
+          "routerUrl": "www.baidu.com19",
+          "GrandsonList": []
+        }
+      ]
+    },
+    {
+      "title": "配置中心",
+      "class": "layui-icon-home",
+      "routerUrl": "",
+      "childrenList": [
+        {
+          "title": "企业基础数据",
+          "routerUrl": "",
+          "GrandsonList": [
+            {
+              "title": "设备资料",
+              "routerUrl": "www.baidu.com20"
+            },
+            {
+              "title": "企业资质信息",
+              "routerUrl": "www.baidu.com21"
+            }
+          ]
+        },
+        {
+          "title": "系统基础数据",
+          "routerUrl": "",
+          "GrandsonList": [
+            {
+              "title": "行政区域",
+              "routerUrl": "www.baidu.com22"
+            },
+            {
+              "title": "物资品类",
+              "routerUrl": "www.baidu.com23"
+            },
+            {
+              "title": "工序名称",
+              "routerUrl": "www.baidu.com24"
+            },
+            {
+              "title": "工序参数",
+              "routerUrl": "www.baidu.com25"
+            },
+            {
+              "title": "状态定义",
+              "routerUrl": "www.baidu.com26"
+            },
+            {
+              "title": "状态类型",
+              "routerUrl": "www.baidu.com27"
+            },
+            {
+              "title": "项目类型",
+              "routerUrl": "www.baidu.com28"
+            }
+          ]
+        },
+        {
+          "title": "资料关系配置",
+          "routerUrl": "www.baidu.com29",
+          "GrandsonList": []
+        }
+      ]
+    },
+    {
+      "title": "系统管理",
+      "class": "layui-icon-location",
+      "routerUrl": "",
+      "childrenList": [
+        {
+          "title": "权限管理",
+          "routerUrl": "",
+          "GrandsonList": [
+            {
+              "title": "角色权限",
+              "routerUrl": "www.baidu.com30"
+            },
+            {
+              "title": "用户权限",
+              "routerUrl": "www.baidu.com31"
+            }
+          ]
+        },
+        {
+          "title": "用户管理",
+          "routerUrl": "www.baidu.com32",
+          "GrandsonList": []
+        }
+      ]
+    }
+  ]
+}
